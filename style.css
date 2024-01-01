@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&family=Poppins&display=swap');
+body {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    
+      
+   
+    
+}
+
+.navbar-brand{
+  margin-left:23px;
+  margin-top: 5px;
+ }
+ .navbar-toggler{
+   
+ }
+#navbarNav{
+  margin-top:8px; 
+  border-radius:20px;
+  background:#000;
+  margin-left: 17px;
+  margin-right: 23px;
+  text-align: left;
+}
+.navbi li a {
+  color:#fff;
+  margin-left:20px;
+}
+.nav{
+  position:fixed ; 
+  font-family: 'Poppins', sans-serif;
+  
+}
+#hero{
+  background: linear-gradient(rgba(0,0,0,0),#000), url("images (1).jpeg") ;
+  background-size:cover;
+  background-repeat:no-repeat; 
+  color:#fff;
+}
+nav{
+  
+}
+.hb {
+  margin-top:5px;
+  width: 60px;
+  margin-right: 35px;
+  display: block;
+  border:none;
+}
+h1{
+  font-family: 'Cairo Play', sans-serif;
+  color: #fff;
+}
+#di{
+  width:100% ;
+  height:80% ;
+  border-radius:20px; 
+  
+}
+    #container {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      width: 100%;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    #btn{
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #btn:hover {
+      background-color: #2980b9;
+    }
+    #con{ 
+     background: linear-gradient(rgba(0,0,0,0),#000), orangered ;
+  background-size:cover;
+  background-repeat:no-repeat; 
+    }
+
+    #card{
+     outline: none;
+     min-width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+     color:#fff;
+      
+    }
+    #card:hover{
+      background: #000;
+      color:#fff;
+    }
+    #h3{
+      font-size:11px; 
+    }
+    
+ 
+
